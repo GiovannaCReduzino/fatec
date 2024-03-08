@@ -1,0 +1,74 @@
+#main{
+    width: 90%;
+    margin:0 auto;
+    /* top/bottom - 0; left/right - auto */
+}
+
+/* Id */
+h1 {
+    text-align: center;
+}
+
+#nome-curriculo{
+    color:#F08080;
+}
+
+#dados-contato, #foto{ /* a cada componente, colocar virgula */
+    float: left;
+}
+
+#nome-dados-pessoais{
+    background-color: #F08080;
+}
+
+#dados-contato{
+    width: 70%;
+}
+
+#nome-formacao-academica{
+    background-color: #F08080;
+}
+#foto{
+    width: 30%;
+    text-align: right;
+}
+
+#foto img{
+    width:15vw;
+    height:30vh;
+}
+
+#nome-experiencias-profissionais{
+    background-color: #F08080;
+}
+
+#formacao{
+    clear:right; 
+}
+
+#nome-informacoes-complementares{
+    background-color: #F08080;
+}
+
+#lista{
+    text-decoration: underline;
+}
+
+hr1 {
+    visibility: hidden;
+}
+
+/* Class */
+
+.subtitle-form{
+    text-decoration: underline;
+    
+}
+
+
+
+/* padding = a margem // background-color = cor da linha (no class) */
+/* como chamar o Class: digitar o ponto = ".". Colocar o nome que você deu na linha e ele puxa */
+/* Unidades de medida: px = tamanho fixo; % = relativo, flúida */
+/* vw = lados // vh = view high (altura) */
+
