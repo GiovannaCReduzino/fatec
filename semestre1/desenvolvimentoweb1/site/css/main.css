@@ -1,0 +1,67 @@
+*{
+    margin: 0; /* margin = margem externa */
+    padding: 0; /* padding = margem interna */
+}
+
+#header{
+    background-color: #191970;
+    width: 100%;
+    position: fixed; /*posição fixada*/
+    top: 0;
+    color: #ffffff;
+}
+
+#logo{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Madimi One', 'Tahoma';
+    font-size: 3vw; /*view horizontal*/
+}
+
+#menu{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+#menu li{
+    list-style-type: none;
+    display: inline;
+    cursor: pointer;
+    padding: 1%;
+}
+
+#menu li:hover{ /*hover = "faça o seguinte assim que" passar o cursor em algo do li*/
+    
+    /*background-color: #00bfff;*/
+    
+    padding-bottom: 0.4rem;
+    border-bottom: 0.3rem solid #00bfff;
+    font-weight: bold;
+}
+
+#menu, #content{
+    font-family: 'Roboto';
+}
+
+#content{
+    padding-top: 150px;
+    width: 90%; /*width = largura das coisas*/
+    margin: 0 auto;
+}
+
+
+#content p:first-child{ /*p = pega o primeiro item dentro do elemento identiificado*/
+    text-align: center ;
+}
+
+#content img{
+    width: 60%;
+}
+
+#footer{
+    background-color: #191970;
+    width: 100%;
+    height: 50px;
+}
