@@ -3,6 +3,11 @@
     padding: 0; /* padding = margem interna */
 }
 
+#container{
+    position: relative;
+    min-height: 100vh; /*vh (viewheight) = melhor para usar o distanciamento entre as coisas (altura) // min = minimo*/
+}
+
 #header{
     background-color: #191970;
     width: 100%;
@@ -15,7 +20,6 @@
     text-align: center;
     padding-top: 20px;
     font-family: 'Madimi One', 'Tahoma';
-    font-size: 3vw; /*view horizontal*/
 }
 
 #menu{
@@ -32,6 +36,11 @@
     padding: 1%;
 }
 
+#menu li a{
+    text-decoration: none;
+    color: inherit;
+}
+
 #menu li:hover{ /*hover = "faça o seguinte assim que" passar o cursor em algo do li*/
     
     /*background-color: #00bfff;*/
@@ -41,20 +50,30 @@
     font-weight: bold;
 }
 
-#menu, #content{
+#menu, #content, #footer{
     font-family: 'Roboto';
 }
 
 #content{
     padding-top: 150px;
+    padding-bottom: 55px;
     width: 90%; /*width = largura das coisas*/
     margin: 0 auto;
 }
 
-
-#content p:first-child{ /*p = pega o primeiro item dentro do elemento identiificado*/
-    text-align: center ;
+#content p{
+    text-align: justify;
+    line-height: 20px;
+    padding-top: 10px;
 }
+
+#content p:first-child, #content h2{ 
+    /*p = pega o primeiro item dentro do elemento identiificado ("primeiro filho")*/
+    
+    text-align: center;
+}
+
+#content h2 { padding-top: 20px;}
 
 #content img{
     width: 60%;
@@ -64,4 +83,13 @@
     background-color: #191970;
     width: 100%;
     height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#footer p{
+    text-align: center;
+    color: #ffffff;
+    padding: 17px 0;
 }
