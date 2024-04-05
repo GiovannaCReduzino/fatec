@@ -1,0 +1,34 @@
+main{
+    display: block;
+}
+
+section h2{
+    text-align: center;
+}
+
+#tabela{
+    width: 100%;
+    font-size: 1.2em;
+}
+
+#tabela, #tabela th, #tabela td{
+    border: 0.1em solid #ff4500;
+    border-collapse: collapse;
+}
+
+#tabela thead, #tabela tfoot{
+    background-color: #ff4500;
+    color: #fafafa;
+}
+
+#tabela td{
+    text-align: center;
+}
+
+#tabela td:nth-child(1){ /* serve para alterar alguma coisa da tabela */ /* child(1) = 1ª tabela */
+    text-align: left;
+}
+
+#tabela tbody tr:nth-child(even){ /* posso escolher se começa pela linha par ou linha ímpar // even = par; odd = ímpar */
+    background-color: #ff7f50; 
+}

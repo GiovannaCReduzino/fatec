@@ -45,6 +45,78 @@ nav a:hover{
     font-weight: bold;
 }
 
+main {
+    padding-top: 140px;
+    /* border: 0.1em solid #000; */
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; /* fr = divide a tela em frações */
+    /* grid-template-colums: repeat (3, 1fr); */    
+}
+
+#manchete{
+    grid-column: 1/4; /* colocar 1º a que você quer, e a outra uma depois a que você quer (n+1) */    
+    /* background-color: #00bfff; */
+    min-height: 300px;
+    display: flex;
+    padding: 1%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0.3em 0.3em rgba(0, 0, 0, 0.1);
+    /* box-shadow: sombreamento da manchete (num + é acima e num - é abaixo) */
+    border-radius: 0.5em;
+    /* box-shadow.dev */
+}
+
+.corpo-manchete{
+    width: 38%;
+    padding: 1%;
+}
+
+
+.corpo-manchete h2{
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    padding-top: 75px; 
+}
+
+.corpo-manchete p{
+    padding: 2%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.corpo-manchete a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.corpo-manchete a:hover{
+    text-decoration: underline;
+}
+
+#manchete img{
+    width: auto;
+}
+
+#noticias{
+    grid-column: 1/4;
+    display: flex; /* permite que deixe lado a lado (pode fazer com fotos também) */
+    flex-wrap: wrap; /* ele pula a linha quando necessário */
+    padding-bottom: 70px;
+}
+
+article{
+    width: 31.33%;
+    padding: 1%;
+    min-height: 300px;
+}
+
+#noticia1{ background-color: #ff0000;}
+#noticia2{ background-color: #00ff00;}
+#noticia3{ background-color: #0000ff;}
+
 footer{
     background-color: #191970;
     width: 100%;
