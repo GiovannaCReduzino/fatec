@@ -30,7 +30,7 @@ def soma (a,b):
     return a + b 
 
 # >Módulos
-# = O smódulos ajudam a evitar a duplicação de código, promovendo a modularidade e a reutilização.
+# = Os módulos ajudam a evitar a duplicação de código, promovendo a modularidade e a reutilização.
 # - Para usar o código de um módulo em outro arquivo Python, você precisa importá-lo
 # - Isso é feito usando a palavra-chave import 
 import math
@@ -46,10 +46,12 @@ print (math.sqrt (2))
 print (rd.randint (0,10))
 
 # >Variáveis
-# = São usadas para armazenar e gerenciar dados, permitindo que você manipule informações de maneira dinâmica
-# - Você não precisa declarar explicitamente o tipo de uma variável.
-# - Variáveis definifas fora de qualquer função são chamadas de variáveis globais.
-# - Letras maiúsculas e minúsculoas são consideradas diferentes.
+'''
+= São usadas para armazenar e gerenciar dados, permitindo que você manipule informações de maneira dinâmica
+- Você não precisa declarar explicitamente o tipo de uma variável.
+- Variáveis definifas fora de qualquer função são chamadas de variáveis globais.
+- Letras maiúsculas e minúsculoas são consideradas diferentes.
+'''
 
 #Variavel inteira
 idade = 25
@@ -97,7 +99,14 @@ idade = 25
 print ('idade: ', idade)
 '''
 
-
+#Input
+'''
+Para receber dados do usuário;
+Ela permite que o usuário insira dados a partir do teclado
+Exemplo:
+variável = input()
+variável = input(‘texto a ser escrito’)
+'''
 
 
 
